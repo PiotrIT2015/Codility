@@ -3,7 +3,7 @@
 * [Technologies](#technologies)
 
 ## General info
-This repository contains code snippets from Codility(professional site for developers).
+This repository contains code snippets from Codility's trainings(professional site for developers).
 	
 ## Technologies
 Project is created with:
