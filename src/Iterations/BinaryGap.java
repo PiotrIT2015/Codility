@@ -1,12 +1,11 @@
 package Iterations;
 
-import java.lang.Math;
 import java.util.ArrayList;
 import java.util.Collections;
 
 public class BinaryGap {
 
-    public int solution(int N){
+    public int solution1(int N){
         int gap1=0, gap2=0, maxgap=0;
         ArrayList<Integer> gaps=new ArrayList();
 
@@ -29,11 +28,4 @@ public class BinaryGap {
         return maxgap;
     }
 
-    public static void main(String[] args) {
-
-        int N = (int) (Math.random() * (2147483647 - 1));
-        BinaryGap maxbingap=new BinaryGap();
-        System.out.println("Największa przerwa wynosi:"+maxbingap.solution(N));
-
-    }
 }
