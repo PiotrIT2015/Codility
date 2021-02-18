@@ -1,6 +1,7 @@
 
 import Arrays.CyclicRotation;
 import Iterations.BinaryGap;
+import Arrays.OddOccurancesInArray;
 
 public class Box {
 
@@ -14,5 +15,8 @@ public class Box {
         System.out.println("Tablica [3,8,9,7,6]");
         for(int i=0;i<B.length;i++)
             System.out.println("po rotacji:"+B[i]);
+
+        OddOccurancesInArray elements=new OddOccurancesInArray();
+        System.out.println("Nieparzysty element to:"+elements.solution3(new int[]{9,3,9,3,9,7,9}));
     }
 }
