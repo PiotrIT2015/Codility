@@ -2,6 +2,7 @@
 import Arrays.CyclicRotation;
 import Iterations.BinaryGap;
 import Arrays.OddOccurancesInArray;
+import TimeComplexity.FrogJmp;
 
 public class Box {
 
@@ -18,5 +19,8 @@ public class Box {
 
         OddOccurancesInArray elements=new OddOccurancesInArray();
         System.out.println("Nieparzysty element to:"+elements.solution3(new int[]{9,3,9,3,9,7,9}));
+
+        FrogJmp jump=new FrogJmp();
+        System.out.println("Minimalna ilość skoków to:"+jump.solution4(10,85,35));
     }
 }
