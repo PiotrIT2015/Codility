@@ -3,6 +3,7 @@ import Arrays.CyclicRotation;
 import Iterations.BinaryGap;
 import Arrays.OddOccurancesInArray;
 import TimeComplexity.FrogJmp;
+import TimeComplexity.PermMissingElem;
 
 public class Box {
 
@@ -22,5 +23,8 @@ public class Box {
 
         FrogJmp jump=new FrogJmp();
         System.out.println("Minimalna ilość skoków to:"+jump.solution4(10,85,35));
+
+        PermMissingElem missing_elem = new PermMissingElem();
+        System.out.println("Brakujący element to:"+missing_elem.solution5(new int[]{2,3,1,5}));
     }
 }
