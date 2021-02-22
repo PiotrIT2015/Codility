@@ -9,6 +9,7 @@ This reository contains code snippets from Codility's trainings(professional sit
 * **CyclicRotation** - Rotate an array to the right by a given number of steps.
 * **OddOccurrencesInArray** - Find value that occurs in odd number of elements.
 * **FrogJmp** - Count minimal number of jumps from position X to Y.
+* **PermMissingElem** - Find the missing element in a given permutation.
 	
 ## Technologies
 Project is created with:
