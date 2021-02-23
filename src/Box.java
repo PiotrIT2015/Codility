@@ -4,6 +4,7 @@ import Iterations.BinaryGap;
 import Arrays.OddOccurancesInArray;
 import TimeComplexity.FrogJmp;
 import TimeComplexity.PermMissingElem;
+import TimeComplexity.TapeEquilibrium;
 
 public class Box {
 
@@ -26,5 +27,8 @@ public class Box {
 
         PermMissingElem missing_elem = new PermMissingElem();
         System.out.println("Brakujący element to:"+missing_elem.solution5(new int[]{2,3,1,5}));
+
+        TapeEquilibrium difference=new TapeEquilibrium();
+        difference.solution6(new int[]{3,1,2,4,3});
     }
 }
