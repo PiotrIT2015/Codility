@@ -11,6 +11,7 @@ This reository contains code snippets from Codility's trainings(professional sit
 * **FrogJmp** - Count minimal number of jumps from position X to Y.
 * **PermMissingElem** - Find the missing element in a given permutation.
 * **TapeEquilibrium** - Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|.
+* **FrogRiverOne** - Findthe earliest time when a frog can jump to the other side of a river.
 	
 ## Technologies
 Project is created with:

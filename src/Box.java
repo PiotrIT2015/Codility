@@ -5,6 +5,7 @@ import Arrays.OddOccurancesInArray;
 import TimeComplexity.FrogJmp;
 import TimeComplexity.PermMissingElem;
 import TimeComplexity.TapeEquilibrium;
+import CountingElements.FrogRiverOne;
 
 public class Box {
 
@@ -30,5 +31,8 @@ public class Box {
 
         TapeEquilibrium difference=new TapeEquilibrium();
         difference.solution6(new int[]{3,1,2,4,3});
+
+        FrogRiverOne time=new FrogRiverOne();
+        System.out.println(time.solution7(4,new int[]{1,3,1,4,2,3,5,4}));
     }
 }
