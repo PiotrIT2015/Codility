@@ -6,6 +6,7 @@ import TimeComplexity.FrogJmp;
 import TimeComplexity.PermMissingElem;
 import TimeComplexity.TapeEquilibrium;
 import CountingElements.FrogRiverOne;
+import CountingElements.MissingInteger;
 
 public class Box {
 
@@ -34,5 +35,8 @@ public class Box {
 
         FrogRiverOne time=new FrogRiverOne();
         System.out.println(time.solution7(4,new int[]{1,3,1,4,2,3,5,4}));
+
+        MissingInteger missing=new MissingInteger();
+        System.out.println("Najmniejsza brakująca wartość to:"+missing.solution(new int[]{1,3,6,4,2}));
     }
 }
