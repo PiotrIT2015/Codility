@@ -13,6 +13,7 @@ This reository contains code snippets from Codility's trainings(professional sit
 * **TapeEquilibrium** - Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|.
 * **FrogRiverOne** - Find the earliest time when a frog can jump to the other side of a river.
 * **MissingInteger** - Find the smallest positive integer that does not occur in a given sequence.
+* **PermCheck** - Check whether array A is a permutation
 	
 ## Technologies
 Project is created with:

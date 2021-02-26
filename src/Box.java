@@ -7,6 +7,7 @@ import TimeComplexity.PermMissingElem;
 import TimeComplexity.TapeEquilibrium;
 import CountingElements.FrogRiverOne;
 import CountingElements.MissingInteger;
+import CountingElements.PermCheck;
 
 public class Box {
 
@@ -37,6 +38,9 @@ public class Box {
         System.out.println(time.solution7(4,new int[]{1,3,1,4,2,3,5,4}));
 
         MissingInteger missing=new MissingInteger();
-        System.out.println("Najmniejsza brakująca wartość to:"+missing.solution(new int[]{1,3,6,4,2}));
+        System.out.println("Najmniejsza brakująca wartość to:"+missing.solution8(new int[]{1,3,6,4,2}));
+
+        PermCheck permutation=new PermCheck();
+        System.out.println("Check:"+permutation.solution9(new int[]{4,1,3}));
     }
 }

@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class MissingInteger {
 
-    public int solution(int[] A){
+    public int solution8(int[] A){
         int element = 1;
         HashSet<Integer> hashSet = new HashSet<>();
 
