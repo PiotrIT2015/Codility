@@ -8,6 +8,7 @@ import TimeComplexity.TapeEquilibrium;
 import CountingElements.FrogRiverOne;
 import CountingElements.MissingInteger;
 import CountingElements.PermCheck;
+import PrefixSums.CountDiv;
 
 public class Box {
 
@@ -42,5 +43,8 @@ public class Box {
 
         PermCheck permutation=new PermCheck();
         System.out.println("Check:"+permutation.solution9(new int[]{4,1,3}));
+
+        CountDiv number=new CountDiv();
+        System.out.println("Liczba podzielnych liczb wynosi:"+number.solution10(6,11,2));
     }
 }
