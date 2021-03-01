@@ -14,6 +14,7 @@ This reository contains code snippets from Codility's trainings(professional sit
 * **FrogRiverOne** - Find the earliest time when a frog can jump to the other side of a river.
 * **MissingInteger** - Find the smallest positive integer that does not occur in a given sequence.
 * **PermCheck** - Check whether array A is a permutation
+* **CountDiv** - Compute number of integers divisible by k in range [a..b].
 	
 ## Technologies
 Project is created with:
