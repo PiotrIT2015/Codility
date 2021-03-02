@@ -15,6 +15,7 @@ This reository contains code snippets from Codility's trainings(professional sit
 * **MissingInteger** - Find the smallest positive integer that does not occur in a given sequence.
 * **PermCheck** - Check whether array A is a permutation
 * **CountDiv** - Compute number of integers divisible by k in range [a..b].
+* **PassingCars** - Count the number of passing cars on the road
 	
 ## Technologies
 Project is created with:
