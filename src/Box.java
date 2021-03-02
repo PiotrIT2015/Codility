@@ -9,6 +9,7 @@ import CountingElements.FrogRiverOne;
 import CountingElements.MissingInteger;
 import CountingElements.PermCheck;
 import PrefixSums.CountDiv;
+import PrefixSums.PassingCars;
 
 public class Box {
 
@@ -46,5 +47,8 @@ public class Box {
 
         CountDiv number=new CountDiv();
         System.out.println("Liczba podzielnych liczb wynosi:"+number.solution10(6,11,2));
+
+        PassingCars pairs=new PassingCars();
+        System.out.println("Liczba mijających się par to: "+pairs.solution11(new int[]{0,1,0,1,1}));
     }
 }
