@@ -16,6 +16,7 @@ This reository contains code snippets from Codility's trainings(professional sit
 * **PermCheck** - Check whether array A is a permutation
 * **CountDiv** - Compute number of integers divisible by k in range [a..b].
 * **PassingCars** - Count the number of passing cars on the road
+* **Distinct** - Compute number of distinct values in an array.
 	
 ## Technologies
 Project is created with:
