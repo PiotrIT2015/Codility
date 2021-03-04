@@ -10,6 +10,7 @@ import CountingElements.MissingInteger;
 import CountingElements.PermCheck;
 import PrefixSums.CountDiv;
 import PrefixSums.PassingCars;
+import Sorting.Distinct;
 
 public class Box {
 
@@ -50,5 +51,8 @@ public class Box {
 
         PassingCars pairs=new PassingCars();
         System.out.println("Liczba mijających się par to: "+pairs.solution11(new int[]{0,1,0,1,1}));
+
+        Distinct values=new Distinct();
+        System.out.println("Poszukiwana wartość to:"+values.solution12(new int[]{2,1,1,2,3,1}));
     }
 }
